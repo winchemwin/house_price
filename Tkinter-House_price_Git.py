@@ -24,10 +24,10 @@ class Application(tk.Frame):
 
 def predict():
     # 予測モデルの読み込み
-    filename1 = 'C:/Users/winte/Documents/Python/Python-learning/LightGBM_opt2.pkl2'
+    filename1 = 'C:/Users/####/Documents/Python/LightGBM_opt2.pkl2' 
     with open(filename1, mode='rb') as f:
         loaded_rf_model = pickle.load(f)
-    filename2='C:/Users/winte/Documents/Python/Python-learning/LightGBM_opt2sc'
+    filename2='C:/Users/#####/Documents/Python/LightGBM_opt2sc'
     with open(filename2, mode='rb') as f:
         sc= pickle.load(f)
     
